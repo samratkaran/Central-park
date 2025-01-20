@@ -101,6 +101,9 @@ body {
    font-weight: 600;
     padding: 2%;
 }
+.navbar a{
+  font-size: 15px;
+}
  
 
 .amenities_container{
@@ -177,6 +180,39 @@ body {
 .gallery_container .Customslide:hover img {
   opacity: 0.9;
 }
+
+.vsv-text-bg {
+  position: relative;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+  text-shadow: 0 1px 2px #000;
+  text-align: center;
+  font-size: 1.8vw;
+  padding: 1vw 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.vsv-text-bk {
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+
+}
+
+
+.vsv-icon {
+  display: inline-block;
+  width: 5vw;
+  height: 5vw;
+  background-color: #fffafa;
+  -webkit-mask: url(./assets/play-icon.svg)
+}
+
 /* ----------------------------------------*/
 
 /* From Uiverse.io by vinodjangid07 */ 
