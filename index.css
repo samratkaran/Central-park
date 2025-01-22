@@ -41,10 +41,10 @@ body {
   color: white;
 }
 .carousel{
-  height: 100vh;
+  height: 87vh;
 }
 .carousel img{
-  height: 100vh;
+  height: 87vh;
 }
 .card-my{
   padding: 0;
@@ -181,37 +181,35 @@ body {
   opacity: 0.9;
 }
 
-.vsv-text-bg {
+
+/* Ensure the parent container is positioned relative */
+.at-property-img {
   position: relative;
-  display: block;
-  background-color: rgba(255, 255, 255, 0.5);
-  color: #ffffff;
-  text-shadow: 0 1px 2px #000;
-  text-align: center;
-  font-size: 1.8vw;
-  padding: 1vw 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
-.vsv-text-bk {
-  width: 100%;
+
+/* Style the play button to center it */
+.vsv-icon-wrapper {
   position: absolute;
-  top: 20%;
-  left: 50%;
+  top: 50%;  /* Vertical center */
+  left: 50%; /* Horizontal center */
+  transform: translate(-50%, -50%); /* Adjust for the center point */
+  z-index: 2; /* Make sure it appears above the image */
+}
 
+/* Optional: Play button styling */
+.play-icon {
+  width: 60px; /* Size of the play icon */
+  height: auto;
+}
+
+/* Ensure the main image is responsive */
+.main-image {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 
-.vsv-icon {
-  display: inline-block;
-  width: 5vw;
-  height: 5vw;
-  background-color: #fffafa;
-  -webkit-mask: url(./assets/play-icon.svg)
-}
 
 /* ----------------------------------------*/
 
